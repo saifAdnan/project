@@ -5,14 +5,20 @@
         <title>Project</title>
     </head>
     <body>
-        {%welcome%}
         <ng-view></ng-view>
         <!-- SCRIPTS: LIBRARIES -->
+        <script src="libs/react-0.11.0.min.js"></script>
         <script src="libs/angular.min.js"></script>
         <script src="libs/angular-route.min.js"></script>
         <script src="libs/ui-bootstrap-tpls-0.11.0.min.js"></script>
 
         <!-- SCRIPTS: ANGULAR -->
+        <script src="app/config.js"></script>
         <script src="app/app.js"></script>
+
+        <script src="app/controllers/mainCtrl.js"></script>
+
+        <script src="app/directives/fastNg.js"></script>
+        <script src="app/directives/fastRepeat.js"></script>
     </body>
 </html>
